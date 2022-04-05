@@ -3,8 +3,8 @@ const path=require('path');
 const express=require('express');
 const app=express();
 const {accounts,users,writeJSON} = require('./data');
-const accountRoutes = require('../routes/accounts');
-const servicesRoutes = require('../routes/services');
+const accountRoutes = require('./routes/accounts');
+const servicesRoutes = require('./routes/services');
 const app = express();
 
 
